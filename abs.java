@@ -1,27 +1,30 @@
-package srii;
-abstract class track
-{
-	abstract  void source();
-}
-class abs extends track
-{
-	void source()
+package srimathi;
+
+abstract class abs {
+	abstract void add();
 	{
-		System.out.println("the file can be conclude");
+		
 	}
-	void metho()
+	void display()
 	{
-		System.out.println("the metho can be cons");
+		int a =10;
+		System.out.println(a);
+	}
+}
+class ash extends abs
+{
+	void add()
+	{
+		int a=10;
+		int b=20;
+		System.out.println(a+b);
 	}
 	public static void main(String[]args)
 	{
-		abs s=new abs();
-		s.source();
-		s.metho();	}
+		ash s =new ash();
+		s.add();
+		s.display();
+		
+	}
+
 }
-
-	
-
-	
-
-	

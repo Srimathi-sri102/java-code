@@ -7,7 +7,7 @@ public class sample1{
 	}
 	sample1(int c)
 	{
-		System.out.println("parameter constructor");
+		System.out.println("paramter constructor");
 	}
 	void add(int a, int b)
 	{
@@ -26,10 +26,9 @@ public class sample1{
 	 }
 	 public static void main(String[]args)
 	 {
-		 sample2 sm = new sample2();
-		 sample2 sc = new sample2();
-		 sample2 sd = new sample2(10);
-	     sm.add(12, 13);
+		sample2 sm = new sample2();
+		sample2 sc=new sample2(10);
+		sm.add(12, 13);
 		
 	 }
  }
